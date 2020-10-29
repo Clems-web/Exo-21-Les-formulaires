@@ -6,10 +6,49 @@
     </head>
     <body>
         <form>
-            <div>
-                <label for="Name">nom</label>
-                <input type="text" id="Name" name="name">
-            </div>
+                <div>
+                    <label for="Name">nom</label>
+                    <input type="text" id="Name" name="name">
+                </div>
+                <div>
+                    <label for="Password">Mot de passe</label>
+                    <input type="password" id="Password" name="user_password">
+                </div>
+                <input type="date">
+                <div>
+                    <label for="Color">Choix de la couleur</label>
+                    <input type="color" id="Color" name="name">
+                </div>
+                <div>
+                    <label for="Article_Numbers">Quantité d'article</label>
+                    <select id="Article_Numbers" name="User_quantity" size="10">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                    </select>
+                </div>
+                <div>
+                    <input type="radio" name="Fruit" value="Banane">Banane
+                    <input type="radio" name="Fruit" value="Pomme">Pomme
+                    <input type="radio" name="Fruit" value="Poire">Poire
+                </div>
+                <div>
+                    <label for="Banane">Banane</label>
+                    <input type="checkbox" name="Fruit" id="Banane" value="Banane">
+                    <label for="Pomme">Pomme</label>
+                    <input type="checkbox" name="Fruit" id="Pomme" value="Pomme">
+                    <label for="Poire">Poire</label>
+                    <input type="checkbox" name="Fruit" id="Poire" value="Poire">
+                </div>
+            <input type="submit">
+            <input type="reset">
         </form>
     </body>
 </html>
